@@ -1,0 +1,18 @@
+{% extends "podcast/base.html" %}
+{% load static i18n %}
+{% block title %}Forbidden | Fat Tony's{% endblock %}
+{% block description %}Fat Tony's is a podcast designed to help you navigate modernity. Influenced by the works of Nassim Taleb, amongst others. Hosted by Sebastian David Lees{% endblock %}
+
+{% block navbar %}
+  {% include 'podcast/navbar.html' %}
+{% endblock %}
+
+{% block content %}
+<div>
+  <div class="container mt-5">
+    <h1 class="tilt-neon header white mb-5">403</h1>
+    <h4 class="tilt-neon white mb-5">You are not authorised to access the required resource.</h4>
+  </div>
+</div>
+{% endblock %}
+

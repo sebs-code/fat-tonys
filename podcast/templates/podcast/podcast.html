@@ -1,0 +1,63 @@
+{% extends "podcast/base.html" %}
+{% load static i18n %}
+{% block title %}{{ podcast.title }} | Fat Tony's{% endblock %}
+{% block description %}{{ podcast.description }}{% endblock %}
+{% block image %}{% static 'podcast/img/episodes.png' %}{% endblock image %}
+
+{% block navbar %}
+  {% include 'podcast/navbar.html' %}
+{% endblock %}
+
+{% block content %}
+{% include 'podcast/podcast-header.html' %}
+{% include 'podcast/podcast-bar.html' %}
+<div>
+  <div class="container mt-5">
+    <h1 class="tilt-neon white mb-5">Episode Summary</h1>
+    <div>
+      <h5 class="white">{{ podcast.summary|safe }}</h5>
+    </div>
+    <h1 class="tilt-neon white mt-5 mb-5">Transcript</h1>
+    <div>
+      <h5 class="white">{{ podcast.transcript|safe }}</h5>
+    </div>
+    <h1 class="tilt-neon white mt-5 mb-5">Resources</h1>
+    <div>
+      <h5 class="white">{{ podcast.resources|safe }}</h5>
+    </div>
+    <h1 class="tilt-neon white mt-5 mb-5">Credits</h1>
+    <div>
+      <h5 class="white">Host: <a href="https://x.com/sebs_tweets">Sebastian Lees</a></h5>
+      <h5 class="white">Music: <a href="https://timhofmann.org/">Tim Hofmann</a></h5>
+      <h5 class="white">Voiceover: <a href="https://voice123.com/voice-actor/BrianRoberts">Brian Roberts</a></h5>
+    </div>
+    <h1 class="tilt-neon white mt-5 mb-5">Related Episodes...</h1>
+    <div class="row">
+      {% for podcast in podcasts %}
+          <div class="col-md-4 mb-4">
+            <a href="{% url 'podcast:index' %}episode/{{ podcast.slug }}">
+              <div class="card video-card h-100">
+                <div class="card-body p-0">
+                  <div style="background: {{ podcast.bkg_colour }};">
+                    <div style="height: 300px; background-image: url('{{ podcast.headshot }}'); background-repeat: no-repeat; background-position: center;">
+                      <span class="badge bg-dark mt-3 ms-3 p-2">SEASON {{ podcast.season_number }}</span>
+                      <span class="badge bg-dark mt-3 p-2">EPISODE {{ podcast.eipsode_number }}</span>
+                      <span class="badge bg-dark mt-3 p-2"><b>{{ podcast.date_created|date:"M d, Y" }}</b></span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="px-4">
+                      <h2 class="font-black lato mt-3 mb-3">{{ podcast.title }}</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% include "podcast/newsletter.html" %}
+{% endblock %}
+

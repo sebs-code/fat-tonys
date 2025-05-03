@@ -1,0 +1,14 @@
+{% extends "podcast/base.html" %}
+{% load static i18n %}
+{% block title %}{% if filter != 'All' %} {{ filter }} {% endif %}Quotes | Fat Tony's{% endblock %}
+{% block description %}Some valuable quotes {% if filter != 'All' %} from {{ filter }} {% endif %}. Discover more quotes to help you navigate modernity.{% endblock %}
+{% block image %}{% static 'podcast/img/quotes.png' %}{% endblock image %}
+
+{% block navbar %}
+  {% include 'podcast/navbar.html' %}
+{% endblock %}
+
+{% block content %}
+  {% include "podcast/snippet_quotes.html" %}
+  {% include "podcast/newsletter.html" %}
+{% endblock %}

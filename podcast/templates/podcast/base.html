@@ -1,0 +1,133 @@
+{% load static i18n %}
+<!DOCTYPE html>
+{% get_current_language as LANGUAGE_CODE %}
+<html lang="{{ LANGUAGE_CODE }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>{% block title %}{% endblock title %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{% block description %}{% endblock %}">
+    <meta name="author" content="Datablast Ltd">
+
+    <!-- OpenGraph Card -->
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{% block image %}{% endblock %}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" content="fattonys.net">
+    <meta name="twitter:site" content="@FatTonysPodcast">
+    <meta name="twitter:creator" content="@FatTonysPodcast">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'podcast/favicons/apple-touch-icon.png' %}">
+    <link rel="android-chrome-icon" sizes="192x192" href="{% static 'podcast/favicons/android-chrome-512x512.png' %}">
+    <link rel="android-chrome-icon" sizes="512x512" href="{% static 'podcast/favicons/android-chrome-192x192.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'podcast/favicons/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'podcast/favicons/favicon-16x16.png' %}">
+    <link rel="icon" href="{% static 'podcast/favicons/favicon.ico' %}">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="{% static 'podcast/favicons/apple-touch-icon.png' %}">
+    <meta name="theme-color" content="#ffffff">
+
+    {% block css %}
+    <!-- Your stuff: Third-party CSS libraries go here -->
+
+    <!-- This file stores project-specific CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tilt Neon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <link href="{% static 'podcast/project.css' %}" rel="stylesheet">
+    {% endblock %}
+
+    <!-- Le javascript
+    ================================================== -->
+    {# Placed at the top of the document so pages load faster with defer #}
+    {% block javascript %}
+      <!-- place project specific Javascript in this file -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+      <script defer src="{% static 'js/aws-sdk.min.js' %}" defer></script>
+      <script src="{% static 'podcast/htmx.org@1.9.6.js' %}" defer></script>
+      <script defer src="{% static 'podcast/project.js' %}"></script>
+    {% endblock javascript %}
+
+    <script type="application/ld+json">
+      {
+         "@context": "https://schema.org/",
+         "@type": "PodcastSeries",
+         "image": "https://fattonys.net/static/podcast/img/logo-fat-tonys.png",
+         "url": "https://fattonys.net",
+         "name": "Fat Tony's",
+         "sameAs": ["https://x.com/FatTonysPodcast", "https://www.youtube.com/@FatTonys", "https://www.linkedin.com/company/fattonys"],
+         "description": "Captivating conversations with amazing experts. Hosted by Sebastian David Lees.",
+         "webFeed": "https://feeds.buzzsprout.com/2229227.rss",
+         "author": {
+           "@type": "Person",
+           "name": "Sebastian David Lees",
+           "sameAs": ["https://x.com/sebs_tweets",
+             "https://sebs.website/",
+             "https://www.instagram.com/sebs.photographs/",
+             "https://www.linkedin.com/in/sebastian-david-lees/",
+             "https://github.com/sebs-code"]
+         }
+      }
+      </script>
+  </head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T39DJ316DC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-T39DJ316DC');
+  </script>
+
+  {% block body %}
+    <body>
+  {% endblock body %}
+
+    <div>
+      {% block navbar %}
+      {% endblock navbar %}
+    </div>
+
+    <div class="container" style="margin-top: 85px;">
+      {% if messages %}
+        {% for message in messages %}
+          <div class="alert alert-dismissible {% if message.tags %}alert-{{ message.tags }}{% endif %}">
+            {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        {% endfor %}
+      {% endif %}
+    </div>
+
+    <div>
+      {% block content %}
+      {% endblock content %}
+    </div>  
+
+    {% block footer %}
+      <div class="mb-1">
+        {% include 'podcast/footer.html' %}
+      </div>
+    {% endblock footer %}
+
+    {% block modal %}{% endblock modal %}
+
+    {% block inline_javascript %}
+    {% comment %}
+    Script tags with only code, no src (defer by default). To run
+    with a "defer" so that you run inline code:
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {/* Run whatever you want */});
+    </script>
+    {% endcomment %}
+    {% endblock inline_javascript %}
+  </body>
+</html>
