@@ -1,0 +1,55 @@
+{% extends "_base.html" %}
+
+{% block title %}About{% endblock %}
+{% block description %}Fat Tony's is a podcast and community with real-world experts, inspired by Nassim Taleb, focused on building antifragile lives in a complex world.{% endblock description %}
+
+{% block content %}
+<div class="episode-banner podcast-bkg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div>
+          <h2 class="mt-3 medium-header nunito white mt-5 pt-4">
+            Fat Tony's is like an 18th century salon it seems to me. People gathering for entertainment and discussion about topics and to educate each other. This art of discussion is lost on X or Facebook.
+          </h2>
+          <h3 class="mt-4 mb-3 nunito small-header white">
+            - Jaffer Ali
+          </h4>
+        </div>
+      </div>
+      <div class="col-md-6 text-center" style="display: flex; justify-content: center;">
+        <img src="/theme/img/person-jaffer-ali.png" width="75%" style="align-self: flex-end;"/>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+  <div class="container mt-5">
+    <div class="col-md-10 offset-md-1">
+      <h4 class="tilt-neon white mb-4">About</h1>
+      <p class="white">
+        Fat Tony's is a podcast, community, and annual meet-up built to help people navigate the chaos of modern life, drawing inspiration from the ideas of Nassim Taleb and like-minded thinkers. This isn't about abstract theory - it's about practical application. How do you actually build an antifragile life in a complex world?
+      </p>
+      <p class="white">
+        At its core, the Fat Tony's podcast features unfiltered conversations with real-world experts - not ivory-tower theorists. Topics include (but aren't limited to): Finance, convexity, non-linearity, deadlifts, fasting, psychology, cooking, poetry, risk, and the pursuit of freedom - or as we like to call it, f*ck you money.
+      </p>
+      <p class="white">        
+        Fat Tony's is more than a podcast - it's an annual meet-up and a decentralized tribe. The result? A high-signal group of people who trade ideas, collaborate, build, and push each other to live better lives. Members have written books, launched businesses, designed together, and forged real-world friendships.
+      </p>
+      <p class="white">        
+        We share ideas and support across this site, Twitter(X), our podcast, Discord server, and YouTube channel. In additional to our annual meet-up, We also host online events, talks, and book clubs. <a href="https://x.com/FatTonysPodcast" class="p-link">Follow us on Twitter(X)</a> to stay in the loop.
+      </p>
+      <h4 class="tilt-neon white mb-4 mt-5">Funding</h1>
+      <p class="white mb-3">
+        As an Amazon Associate, we earn from qualifying purchases.
+      </p>
+    </div>
+  </div>
+</div>
+<script>
+  window.onload = function() {
+    let link_element = document.getElementById("about-link");
+    link_element.classList.add("selected-link");
+  };  
+</script>
+{% endblock content %}

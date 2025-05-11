@@ -1,0 +1,53 @@
+{% extends "_base.html" %}
+
+{% block title %}{{ article.title }}{% endblock %}
+{% block description %}{{ article.description }}{% endblock description %}
+
+{% block content %}
+{% with podcast = article %}
+  {% include '_podcast_header.html' %}
+{% endwith %}
+{% include '_subscribe.html' %}
+f
+<div class="container mt-5">
+    <h3 class="tilt-neon white mt-5 mb-3">Episode Summary</h3>
+    <div class="white">
+     {{ article.content }}
+    </div>
+    <div class="row">
+        <h3 class="tilt-neon white mt-4 mb-3">Credits</h3>
+        <div>
+            <p class="white mb-1">Host: <a href="https://x.com/sebs_tweets">Sebastian Lees</a></p>
+            <p class="white mb-1">Music: <a href="https://timhofmann.org/">Tim Hofmann</a></p>
+            <p class="white mb-1">Voiceover: <a href="https://voice123.com/voice-actor/BrianRoberts">Brian Roberts</a></p>
+        </div>
+    </div>
+    <div class="row">
+        <h3 class="tilt-neon white mt-5 mb-4">Related Episodes</h3>
+        {% for podcast in articles %}
+          {% if podcast.related == 'true' %}
+                <div class="col-md-4 mb-4">
+                <a href="/episodes/{{ podcast.slug }}">
+                    <div class="card video-card h-100">
+                    <div class="card-body p-0">
+                        <div style="background: #AC58FC;">
+                        <div style="height: 300px; background-image: url('/img/headshots/{{ podcast.headshot }}'); background-repeat: no-repeat; background-position: center;">
+                            <span class="badge bg-dark mt-3 ms-3 p-2">SEASON {{ podcast.season_number }}</span>
+                            <span class="badge bg-dark mt-3 p-2">EPISODE {{ podcast.eipsode_number }}</span>
+                            <span class="badge bg-dark mt-3 p-2"><b>{{ podcast.date.strftime('%B %d, %Y') }}</b></span>
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="px-4">
+                            <h3 class="font-black lato mt-3 mb-3">{{ podcast.title }}</h2>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </a>
+                </div>
+          {% endif %}  
+        {% endfor %}
+      </div>
+</div>    
+{% endblock content %}

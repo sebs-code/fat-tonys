@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <title>Books</title>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Fat Tony's">
+    <meta name="keywords" content="Fat Tony, Fat Tony's, Antifragile, Nassim Taleb, Podcast, Sebastian Lees">
+    <meta name="description" content="Discover books written and recommended by Fat Tony's guests and community - covering risk, antifragility, finance, psychology, and more.">
+
+    <!-- OpenGraph Card -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Books">
+    <meta property="og:image" content="/theme/img/social-link.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:description" content="Discover books written and recommended by Fat Tony's guests and community - covering risk, antifragility, finance, psychology, and more.">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" content="fattonys.net">
+    <meta name="twitter:site" content="@FatTonysPodcast">
+    <meta name="twitter:creator" content="@FatTonysPodcast">
+    <meta name="twitter:title" content="Books">
+    <meta name="twitter:description" content="Discover books written and recommended by Fat Tony's guests and community - covering risk, antifragility, finance, psychology, and more.">
+    <meta name="twitter:image" content="/theme/img/social-link.png">
+
+    <!-- Bootstrap & CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="/theme/css/styles.css">
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script defer src="/theme/js/aws-sdk.min.js" defer></script>
+    <script defer src="/theme/js/project.js" defer></script>
+
+    <!-- Favicons -->
+    <link rel="icon" href="/theme/img/favicon.ico">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tilt Neon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T39DJ316DC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T39DJ316DC');
+    </script>
+  </head>
+
+  <body id="index">
+      <!-- header -->
+      <div style="margin-bottom: 85px;">
+        <nav class="navbar navbar-expand-lg ms-auto navbar-dark fixed-top">
+          <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="/" aria-label="Fat Tony's">
+              <img class="navbar-logo" src="/theme/img/logo-flickering.gif" alt="Fat Tony's logo"/>
+            </a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item me-2 mt-1">
+                  <a class="nav-link nunito" id="home-link" href="/">Home</a>
+                </li>
+                <li class="nav-item me-2 mt-1">
+                  <a class="nav-link nunito" id="podcast-link" href="/podcast">Podcast</a>
+                </li>
+                <li class="nav-item me-2 mt-1">
+                  <a class="nav-link nunito" id="videos-link" href="/videos">Videos</a>
+                </li>
+                <li class="nav-item me-3 mt-1">
+                  <a class="nav-link nunito" id="books-link" href="/books">Books</a>
+                </li>
+                <li class="nav-item me-2 mt-1">
+                  <a class="nav-link nunito btn px-3 btn-lg btn-purple" href="https://discord.gg/3KdCwRvjtd">
+                    <svg class="me-1" xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 -28.5 256 256" fill="white">
+                      <path d="M216.856339,16.5966031 C200.285002,8.84328665 182.566144,3.2084988 164.041564,0 C161.766523,4.11318106 159.108624,9.64549908 157.276099,14.0464379 C137.583995,11.0849896 118.072967,11.0849896 98.7430163,14.0464379 C96.9108417,9.64549908 94.1925838,4.11318106 91.8971895,0 C73.3526068,3.2084988 55.6133949,8.86399117 39.0420583,16.6376612 C5.61752293,67.146514 -3.4433191,116.400813 1.08711069,164.955721 C23.2560196,181.510915 44.7403634,191.567697 65.8621325,198.148576 C71.0772151,190.971126 75.7283628,183.341335 79.7352139,175.300261 C72.104019,172.400575 64.7949724,168.822202 57.8887866,164.667963 C59.7209612,163.310589 61.5131304,161.891452 63.2445898,160.431257 C105.36741,180.133187 151.134928,180.133187 192.754523,160.431257 C194.506336,161.891452 196.298154,163.310589 198.110326,164.667963 C191.183787,168.842556 183.854737,172.420929 176.223542,175.320965 C180.230393,183.341335 184.861538,190.991831 190.096624,198.16893 C211.238746,191.588051 232.743023,181.531619 254.911949,164.955721 C260.227747,108.668201 245.831087,59.8662432 216.856339,16.5966031 Z M85.4738752,135.09489 C72.8290281,135.09489 62.4592217,123.290155 62.4592217,108.914901 C62.4592217,94.5396472 72.607595,82.7145587 85.4738752,82.7145587 C98.3405064,82.7145587 108.709962,94.5189427 108.488529,108.914901 C108.508531,123.290155 98.3405064,135.09489 85.4738752,135.09489 Z M170.525237,135.09489 C157.88039,135.09489 147.510584,123.290155 147.510584,108.914901 C147.510584,94.5396472 157.658606,82.7145587 170.525237,82.7145587 C183.391518,82.7145587 193.761324,94.5189427 193.539891,108.914901 C193.539891,123.290155 183.391518,135.09489 170.525237,135.09489 Z"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li class="nav-item me-2 mt-1">
+                  <a class="nav-link nunito btn px-3 btn-lg btn-black" href="https://x.com/FatTonysPodcast">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 1200 1227" fill="white">
+                      <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"/>
+                    </svg>
+                  </a>
+                </li>                
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- content -->
+<div class="episode-banner podcast-bkg">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="text-center">
+            <h1 class="my-3 mx-2 tilt-neon white">
+              Books
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="container">
+      <div class="row">
+        <h3 class="mt-5 mb-5 tilt-neon white text-center">Written, read, and recommended by our podcast guests & listeners</h3>
+<div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Chasing String in the Digital Era', 'Jaffer Ali', 'chasing-string-in-a-digital-era.jpg', 'https://www.amazon.com/Chasing-String-Digital-Era-Jaffer-ebook/dp/B00CTOEUAG', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/chasing-string-in-a-digital-era.jpg"
+      alt="Chasing String in the Digital Era - Jaffer Ali" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Brief Hours and Weeks: My Life as a Capetonian', 'Emanuel Derman', 'my-life-as-a-capetonian.jpg', 'https://www.amazon.com/Brief-Hours-Weeks-Life-Capetonian/dp/1068649100', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/my-life-as-a-capetonian.jpg"
+      alt="Brief Hours and Weeks: My Life as a Capetonian - Emanuel Derman" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Vines in a Cold Climate', 'Henry Jeffreys', 'vines-in-a-cold-climate.jpg', 'https://www.amazon.com/Vines-Cold-Climate-English-Revolution-ebook/dp/B0BV9PNKVM', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/vines-in-a-cold-climate.jpg"
+      alt="Vines in a Cold Climate - Henry Jeffreys" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('In Defense of Civilization', 'Dr. Michael Bonner', 'in-defense-of-civilization.jpg', 'https://www.amazon.com/Defense-Civilization-Past-Renew-Present/dp/1990823068', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/in-defense-of-civilization.jpg"
+      alt="In Defense of Civilization - Dr. Michael Bonner" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Two Thoughts: A Timeless Collection of Infinite Wisdom', 'Jim O’Shaughnessy', 'two-thoughts.jpg', 'https://www.amazon.com/Two-Thoughts-Timeless-Collection-Infinite-ebook/dp/B0DT1G2R3Q', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/two-thoughts.jpg"
+      alt="Two Thoughts: A Timeless Collection of Infinite Wisdom - Jim O’Shaughnessy" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Make Rules Without Making Enemies: How to Draw the Lines Without Drawing Fire', 'Shay Hill', 'make-friends-without-making-enemies.jpg', 'https://www.barnesandnoble.com/w/make-rules-without-making-enemies-shay-hill/1143376217', 'Barnes & Noble')" class="zoom book pointer"
+      src="/theme/books/make-friends-without-making-enemies.jpg"
+      alt="Make Rules Without Making Enemies: How to Draw the Lines Without Drawing Fire - Shay Hill" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('The Complete Works of Fyodor Dostoyevsky', 'Fyodor Dostoyevsky', 'dostoyevsky-complete-works.jpg', 'https://www.amazon.com/Complete-Works-Fyodor-Dostoyevsky-Autobiographical-ebook/dp/B00YFQT0BA', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/dostoyevsky-complete-works.jpg"
+      alt="The Complete Works of Fyodor Dostoyevsky - Fyodor Dostoyevsky" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('My Life as a Quant: Reflections on Physics and Finance', 'Emanuel Derman', 'my-life-as-a-quant.jpg', 'https://www.amazon.com/My-Life-Quant-Reflections-Physics/dp/0470192739', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/my-life-as-a-quant.jpg"
+      alt="My Life as a Quant: Reflections on Physics and Finance - Emanuel Derman" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Models.Behaving.Badly: Why Confusing Illusion With Reality Can Lead to Disaster, on Wall Street and in Life', 'Emanuel Derman', 'models-behaving-badly.jpg', 'https://www.amazon.com/Models-Behaving-Badly-Confusing-Illusion-Reality-Disaster/dp/1439164983', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/models-behaving-badly.jpg"
+      alt="Models.Behaving.Badly: Why Confusing Illusion With Reality Can Lead to Disaster, on Wall Street and in Life - Emanuel Derman" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Longevity...Simplified', 'Howard Luks', 'longevity-simplified.jpg', 'https://www.amazon.com/Longevity-Simplified-Healthier-Shouldnt-Complicated/dp/B0B2BWSWHH', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/longevity-simplified.jpg"
+      alt="Longevity...Simplified - Howard Luks" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Transport for Humans: Are We Nearly There Yet?', 'Pete Dyson & Rory Sutherland', 'transport-for-humans.jpg', 'https://www.amazon.co.uk/Transport-Humans-Nearly-There-Perspectives/dp/1913019357', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/transport-for-humans.jpg"
+      alt="Transport for Humans: Are We Nearly There Yet? - Pete Dyson & Rory Sutherland" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Alchemy', 'Rory Sutherland', 'alchemy.jpg', 'https://www.amazon.com/Alchemy-Surprising-Power-Ideas-Sense-ebook/dp/B01F1HOAWA', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/alchemy.jpg"
+      alt="Alchemy - Rory Sutherland" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('The Hour Between Dog and Wolf: Risk-Taking, Gut Feelings and the Biology of Boom and Bust', 'John Coates', 'hour-between-dog-and-wolf.jpg', 'https://www.amazon.com/Hour-Between-Dog-Wolf-Risk-Taking/dp/0007413521', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/hour-between-dog-and-wolf.jpg"
+      alt="The Hour Between Dog and Wolf: Risk-Taking, Gut Feelings and the Biology of Boom and Bust - John Coates" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('The Management Myth - Why the Experts Keep Getting it Wrong', 'Matthew Stewart', 'the-management-myth.jpg', 'https://www.amazon.com/Management-Myth-Experts-Getting-Wrong/dp/0393065537', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/the-management-myth.jpg"
+      alt="The Management Myth - Why the Experts Keep Getting it Wrong - Matthew Stewart" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Starting Strength', 'Mark Rippetoe', 'starting-strength.jpg', 'https://www.amazon.com/Starting-Strength-Mark-Rippetoe-ebook/dp/B006XJR5ZA', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/starting-strength.jpg"
+      alt="Starting Strength - Mark Rippetoe" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Gödel, Escher, Bach: An Eternal Golden Braid', ' Douglas R Hofstadter', 'godel-escher-bach.jpg', 'https://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/godel-escher-bach.jpg"
+      alt="Gödel, Escher, Bach: An Eternal Golden Braid -  Douglas R Hofstadter" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Cut the Knot: Probability Riddles', 'Alexander Bogomolny', 'cut-the-knot.jpg', 'https://www.amazon.com/Cut-Knot-Probability-Alexander-Bogomolny/dp/157955041X', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/cut-the-knot.jpg"
+      alt="Cut the Knot: Probability Riddles - Alexander Bogomolny" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('What Is ChatGPT Doing ... and Why Does It Work?', 'Stephen Wolfram', 'what-is-chat-gpt-doing.jpg', 'https://www.amazon.com/What-ChatGPT-Doing-Does-Work/dp/1579550819', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/what-is-chat-gpt-doing.jpg"
+      alt="What Is ChatGPT Doing ... and Why Does It Work? - Stephen Wolfram" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Chaos Kings: How Wall Street Traders Make Billions in the New Age of Crisis', 'Scott Patterson', 'chaos-kings.jpg', 'https://www.amazon.com/Chaos-Kings-Street-Traders-Billions/dp/1982179945', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/chaos-kings.jpg"
+      alt="Chaos Kings: How Wall Street Traders Make Billions in the New Age of Crisis - Scott Patterson" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('The (Mis)Behaviour of Markets: A Fractal View of Risk, Ruin and Reward', 'Benoit Mandelbrot', 'misbehaviour-of-markets.jpg', 'https://www.amazon.com/Mis-Behaviour-Markets-benoit-b-mandelbrot-richard-l-hudson/dp/1846682622', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/misbehaviour-of-markets.jpg"
+      alt="The (Mis)Behaviour of Markets: A Fractal View of Risk, Ruin and Reward - Benoit Mandelbrot" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Never Split the Difference: Negotiating As If Your Life Depended On It', 'Chris Voss', 'never-split-the-difference.jpg', 'https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/never-split-the-difference.jpg"
+      alt="Never Split the Difference: Negotiating As If Your Life Depended On It - Chris Voss" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('The Greek Plays: Sixteen Plays by Aeschylus, Sophocles, and Euripides', 'Sophicles, Aeschylus, Euripides', 'the-greek-tragedies.jpg', 'https://www.amazon.com/Greek-Plays-Aeschylus-Sophocles-Euripides-ebook/dp/B011G3HFF2', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/the-greek-tragedies.jpg"
+      alt="The Greek Plays: Sixteen Plays by Aeschylus, Sophocles, and Euripides - Sophicles, Aeschylus, Euripides" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Fixing Economics: The story of how the dismal science was broken - and how it could be rebuilt', 'George Cooper', 'fixing-economics.jpg', 'https://www.amazon.com/Fixing-Economics-dismal-science-rebuilt-ebook/dp/B01IVXROKG', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/fixing-economics.jpg"
+      alt="Fixing Economics: The story of how the dismal science was broken - and how it could be rebuilt - George Cooper" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Energy and Civilization: A History', 'Vaclav Smil', 'energy-civilization-and-history.jpg', 'https://www.amazon.com/Energy-Civilization-History-MIT-Press/dp/0262536161', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/energy-civilization-and-history.jpg"
+      alt="Energy and Civilization: A History - Vaclav Smil" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Humanizing Rules: Bringing Behavioural Science to Ethics and Compliance', 'Christian Hunt', 'humanizing-rules.jpg', 'https://www.amazon.com/Humanizing-Rules-Bringing-Behavioural-Compliance/dp/1394177402', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/humanizing-rules.jpg"
+      alt="Humanizing Rules: Bringing Behavioural Science to Ethics and Compliance - Christian Hunt" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Financial Speculation: Trading financial biases and behaviour', 'Gerald Ashley', 'financial-speculation.jpg', 'https://www.amazon.com/Financial-Speculation-Trading-financial-behaviour-ebook/dp/B0032XO5RQ', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/financial-speculation.jpg"
+      alt="Financial Speculation: Trading financial biases and behaviour - Gerald Ashley" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Two Speed World: The impact of explosive and gradual change', 'Gerald Ashley & Terry Lloyd', 'two-speed-world.jpg', 'https://www.amazon.com/Two-Speed-World-explosive-everything-ebook/dp/B004DCATHU', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/two-speed-world.jpg"
+      alt="Two Speed World: The impact of explosive and gradual change - Gerald Ashley & Terry Lloyd" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Statistical Consequences of Fat Tails: Real World Preasymptotics, Epistemology, and Applications', 'Nassim Taleb', 'stat-con-fat-tails.jpg', 'https://www.amazon.com/Statistical-Consequences-Fat-Tails-Preasymptotics/dp/B0CD8X5YC5', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/stat-con-fat-tails.jpg"
+      alt="Statistical Consequences of Fat Tails: Real World Preasymptotics, Epistemology, and Applications - Nassim Taleb" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('The Incerto', 'Nassim Taleb', 'incerto.jpg', 'https://www.amazon.com/Incerto-Fooled-Randomness-Procrustes-Antifragile/dp/059324365X', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/incerto.jpg"
+      alt="The Incerto - Nassim Taleb" height="300px" width="190px">
+  </div>      </div>
+    </div>
+</div>
+<div class="modal" id="bookModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content mt-5">
+      <div class="modal-header">
+        <div class="row">
+            <div class="col-md-12">
+              <h3 class="modal-title lato w-100" id="bookTitle"></h3>
+            </div>
+            <div class="col-md-12">
+              <h5 class="lato w-100 grey" id="bookAuthor"></h5>
+            </div>
+        </div>
+      </div>
+      <div class="modal-body lato text-center">
+        <img id="bookImage" class="modalBookImage" />
+      </div>
+      <div class="modal-footer">
+        <a href="" target="_blank" type="button" id="bookLink" class="btn btn-amazon w-100 p-3"></a>
+        <button type="button" id="close" class="btn btn-purple w-100 p-3" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  let link_element = document.getElementById("books-link");
+  link_element.classList.add("selected-link");
+</script>
+
+      <!-- Newsletter -->
+      <svg width="100%" height="50" viewBox="0 0 500 80" preserveAspectRatio="none" class="mt-5 bkg-gloss-black">
+        <path d="M0,0 L0,40 Q250,80 500,40 L500,0 Z" fill="#1f2833"/>
+      </svg>
+      <section id="newsletter">
+        <div class="p-5 bkg-gloss-black">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+              <div class="row">
+                <h1 class="tilt-neon white">NEWSLETTER</h1>
+              </div>
+                <div class="row">
+                  <h5 class="white py-3 nunito small-header pe-5">Get notified when new podcast episodes are released, plus access to exclusive Fat Tony's online events and meet ups.</h5>
+              </div>
+              </div>
+                <div class="col-md-6">
+                  <form class="form-horizontal" id="newsletterForm" onsubmit="emailForm(); return false">
+                    <fieldset>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <input name="email" id="email" placeholder="Email" class="form-control py-3" type="email" required>
+                        </div>
+                      </div>
+                    </fieldset>
+                    <button type="button" onclick="sendNewsletterForm()" class="btn mt-4 py-3 btn-lg btn-purple w-100">Sign Up!</button>
+                  </form>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <svg width="100%" height="50" viewBox="0 0 500 80" preserveAspectRatio="none" class="mb-5 bkg-light-black">
+        <path d="M0,0 L0,40 Q250,80 500,40 L500,0 Z" fill="#070707"/>
+      </svg>
+
+      <div class="modal fade" id="newsletterModal" name="newsletterModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content mt-5">
+            <div class="modal-header text-center">
+              <h3 class="modal-title lato w-100"><b>Thanks 💪</b></h3>
+            </div>
+            <div class="modal-body lato text-center">
+              <h5>
+                You're all signed up, and will recieve the next newsletter.
+              </h5>
+            </div>
+            <div class="modal-footer">
+              <button type="button" id="close" class="btn btn-purple w-100 p-3" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- footer -->
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-5 border-top">
+          <p class="col-md-4 ps-2 mb-0">© Fat Tony's. Webite by <a  class="footer-link" href="https://sebs.website">Sebastian Lees</a>.</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <img class="footer-logo" src="/theme/img/logo-thumbnail.png" alt="Fat Tony's footer logo"/>
+          </a>
+      
+          <ul class="nav col-md-4 ps-1 justify-content-end">
+            <li class="footer-link"><a href="/about" id="about-link" class="footer-link px-2 me-1">About</a></li>
+            <li class="footer-link"><a href="/contact" id="contact-link" class="footer-link px-2 me-3">Contact</a></li>
+            <li class="footer-link">
+              <a href="https://x.com/FatTonysPodcast" aria-label="Fat Tony's on X">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 1200 1227" fill="white">
+                  <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"/>
+                </svg>
+              </a>
+            </li>
+            <li class="ms-3 footer-link">
+              <a href="https://youtube.com/@FatTonys" aria-label="Fat Tony's on YouTube">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24">
+                  <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+                </svg>
+              </a>
+            </li>
+            <li class="ms-3 footer-link">
+              <a href="https://www.linkedin.com/company/fattonys"  aria-label="Fat Tony's on LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>

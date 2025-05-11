@@ -1,0 +1,234 @@
+[
+    {
+        "title": "Chasing String in the Digital Era",
+        "author": "Jaffer Ali",
+        "thumbnail": "chasing-string-in-a-digital-era.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Chasing-String-Digital-Era-Jaffer-ebook/dp/B00CTOEUAG",
+        "featured": true
+    },
+    {
+        "title": "Brief Hours and Weeks: My Life as a Capetonian",
+        "author": "Emanuel Derman",
+        "thumbnail": "my-life-as-a-capetonian.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Brief-Hours-Weeks-Life-Capetonian/dp/1068649100",
+        "featured": true
+    },
+    {
+        "title": "Vines in a Cold Climate",
+        "author": "Henry Jeffreys",
+        "thumbnail": "vines-in-a-cold-climate.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Vines-Cold-Climate-English-Revolution-ebook/dp/B0BV9PNKVM",
+        "featured": true
+    },
+    {
+        "title": "In Defense of Civilization",
+        "author": "Dr. Michael Bonner",
+        "thumbnail": "in-defense-of-civilization.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Defense-Civilization-Past-Renew-Present/dp/1990823068",
+        "featured": true
+    },
+    {
+        "title": "Two Thoughts: A Timeless Collection of Infinite Wisdom",
+        "author": "Jim O’Shaughnessy",
+        "thumbnail": "two-thoughts.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Two-Thoughts-Timeless-Collection-Infinite-ebook/dp/B0DT1G2R3Q",
+        "featured": true
+    },
+    {
+        "title": "Make Rules Without Making Enemies: How to Draw the Lines Without Drawing Fire",
+        "author": "Shay Hill",
+        "thumbnail": "make-friends-without-making-enemies.jpg",
+        "provider": "Barnes & Noble",
+        "link": "https://www.barnesandnoble.com/w/make-rules-without-making-enemies-shay-hill/1143376217",
+        "featured": true
+    },
+    {
+        "title": "The Complete Works of Fyodor Dostoyevsky",
+        "author": "Fyodor Dostoyevsky",
+        "thumbnail": "dostoyevsky-complete-works.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Complete-Works-Fyodor-Dostoyevsky-Autobiographical-ebook/dp/B00YFQT0BA",
+        "featured": false
+    },
+    {
+        "title": "My Life as a Quant: Reflections on Physics and Finance",
+        "author": "Emanuel Derman",
+        "thumbnail": "my-life-as-a-quant.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/My-Life-Quant-Reflections-Physics/dp/0470192739",
+        "featured": false
+    },
+    {
+        "title": "Models.Behaving.Badly: Why Confusing Illusion With Reality Can Lead to Disaster, on Wall Street and in Life",
+        "author": "Emanuel Derman",
+        "thumbnail": "models-behaving-badly.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Models-Behaving-Badly-Confusing-Illusion-Reality-Disaster/dp/1439164983",
+        "featured": false
+    },
+    {
+        "title": "Longevity...Simplified",
+        "author": "Howard Luks",
+        "thumbnail": "longevity-simplified.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Longevity-Simplified-Healthier-Shouldnt-Complicated/dp/B0B2BWSWHH",
+        "featured": false
+    },
+    {
+        "title": "Transport for Humans: Are We Nearly There Yet?",
+        "author": "Pete Dyson & Rory Sutherland",
+        "thumbnail": "transport-for-humans.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.co.uk/Transport-Humans-Nearly-There-Perspectives/dp/1913019357",
+        "featured": false
+    },
+    {
+        "title": "Alchemy",
+        "author": "Rory Sutherland",
+        "thumbnail": "alchemy.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Alchemy-Surprising-Power-Ideas-Sense-ebook/dp/B01F1HOAWA",
+        "featured": false
+    },
+    {
+        "title": "The Hour Between Dog and Wolf: Risk-Taking, Gut Feelings and the Biology of Boom and Bust",
+        "author": "John Coates",
+        "thumbnail": "hour-between-dog-and-wolf.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Hour-Between-Dog-Wolf-Risk-Taking/dp/0007413521",
+        "featured": false
+    },
+    {
+        "title": "The Management Myth - Why the Experts Keep Getting it Wrong",
+        "author": "Matthew Stewart",
+        "thumbnail": "the-management-myth.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Management-Myth-Experts-Getting-Wrong/dp/0393065537",
+        "featured": false
+    },
+    {
+        "title": "Starting Strength",
+        "author": "Mark Rippetoe",
+        "thumbnail": "starting-strength.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Starting-Strength-Mark-Rippetoe-ebook/dp/B006XJR5ZA",
+        "featured": false
+    },
+    {
+        "title": "Gödel, Escher, Bach: An Eternal Golden Braid",
+        "author": " Douglas R Hofstadter",
+        "thumbnail": "godel-escher-bach.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567",
+        "featured": false
+    },
+    {
+        "title": "Cut the Knot: Probability Riddles",
+        "author": "Alexander Bogomolny",
+        "thumbnail": "cut-the-knot.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Cut-Knot-Probability-Alexander-Bogomolny/dp/157955041X",
+        "featured": false
+    },
+    {
+        "title": "What Is ChatGPT Doing ... and Why Does It Work?",
+        "author": "Stephen Wolfram",
+        "thumbnail": "what-is-chat-gpt-doing.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/What-ChatGPT-Doing-Does-Work/dp/1579550819",
+        "featured": false
+    },
+    {
+        "title": "Chaos Kings: How Wall Street Traders Make Billions in the New Age of Crisis",
+        "author": "Scott Patterson",
+        "thumbnail": "chaos-kings.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Chaos-Kings-Street-Traders-Billions/dp/1982179945",
+        "featured": false
+    },
+    {
+        "title": "The (Mis)Behaviour of Markets: A Fractal View of Risk, Ruin and Reward",
+        "author": "Benoit Mandelbrot",
+        "thumbnail": "misbehaviour-of-markets.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Mis-Behaviour-Markets-benoit-b-mandelbrot-richard-l-hudson/dp/1846682622",
+        "featured": false
+    },
+    {
+        "title": "Never Split the Difference: Negotiating As If Your Life Depended On It",
+        "author": "Chris Voss",
+        "thumbnail": "never-split-the-difference.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805",
+        "featured": false
+    },
+    {
+        "title": "The Greek Plays: Sixteen Plays by Aeschylus, Sophocles, and Euripides",
+        "author": "Sophicles, Aeschylus, Euripides",
+        "thumbnail": "the-greek-tragedies.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Greek-Plays-Aeschylus-Sophocles-Euripides-ebook/dp/B011G3HFF2",
+        "featured": false
+    },
+    {
+        "title": "Fixing Economics: The story of how the dismal science was broken - and how it could be rebuilt",
+        "author": "George Cooper",
+        "thumbnail": "fixing-economics.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Fixing-Economics-dismal-science-rebuilt-ebook/dp/B01IVXROKG",
+        "featured": false
+    },
+    {
+        "title": "Energy and Civilization: A History",
+        "author": "Vaclav Smil",
+        "thumbnail": "energy-civilization-and-history.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Energy-Civilization-History-MIT-Press/dp/0262536161",
+        "featured": false
+    },
+    {
+        "title": "Humanizing Rules: Bringing Behavioural Science to Ethics and Compliance",
+        "author": "Christian Hunt",
+        "thumbnail": "humanizing-rules.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Humanizing-Rules-Bringing-Behavioural-Compliance/dp/1394177402",
+        "featured": false
+    },
+    {
+        "title": "Financial Speculation: Trading financial biases and behaviour",
+        "author": "Gerald Ashley",
+        "thumbnail": "financial-speculation.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Financial-Speculation-Trading-financial-behaviour-ebook/dp/B0032XO5RQ",
+        "featured": false
+    },
+    {
+        "title": "Two Speed World: The impact of explosive and gradual change",
+        "author": "Gerald Ashley & Terry Lloyd",
+        "thumbnail": "two-speed-world.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Two-Speed-World-explosive-everything-ebook/dp/B004DCATHU",
+        "featured": false
+    },
+    {
+        "title": "Statistical Consequences of Fat Tails: Real World Preasymptotics, Epistemology, and Applications",
+        "author": "Nassim Taleb",
+        "thumbnail": "stat-con-fat-tails.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Statistical-Consequences-Fat-Tails-Preasymptotics/dp/B0CD8X5YC5",
+        "featured": false
+    },
+    {
+        "title": "The Incerto",
+        "author": "Nassim Taleb",
+        "thumbnail": "incerto.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Incerto-Fooled-Randomness-Procrustes-Antifragile/dp/059324365X",
+        "featured": false
+    }       
+]

@@ -1,0 +1,50 @@
+{% extends "_base.html" %}
+
+{% block title %}Videos{% endblock %}
+{% block description %}Watch in-depth video talks from Fat Tony's guests - real world experts sharing insights on risk, resilience, freedom, and antifragile living.{% endblock description %}
+
+{% block content %}
+<div class="episode-banner podcast-bkg">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="text-center">
+            <h1 class="my-3 mx-2 tilt-neon white">
+              Videos
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="container">
+      <div class="row">
+        <h3 class="mt-5 mb-5 tilt-neon white text-center">Lockdown Lectures 2021-2023</h3>
+        {% for video in VIDEOS %}
+          <div class="col-md-4 mb-3">
+            <a href="{{ video.url}}">
+              <div class="card video-card h-100">
+                <div class="card-body p-0">
+                  <div class="row">
+                    <img src="/theme/videos/{{ video.thumbnail }}" width="100%" alt="{{ video.title }}"/>
+                  </div>
+                  <div class="row">
+                    <div class="px-4">
+                      <h5 class="lato mb-0 mt-2">{{ video.title }}</h5>
+                      <p class="muted lato">{{ video.speaker }}</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+</div>
+<script>
+  let link_element = document.getElementById("videos-link");
+  link_element.classList.add("selected-link");
+</script>
+{% endblock content %}

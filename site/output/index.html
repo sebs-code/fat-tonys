@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <title>Fat Tony's Podcast</title>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Fat Tony's">
+    <meta name="keywords" content="Fat Tony, Fat Tony's, Antifragile, Nassim Taleb, Podcast, Sebastian Lees">
+    <meta name="description" content="Fat Tony's is a podcast by Sebastian David Lees featuring conversations with real-world experts, inspired by Nassim Taleb and other influential thinkers.">
+
+    <!-- OpenGraph Card -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Fat Tony's Podcast">
+    <meta property="og:image" content="/theme/img/social-link.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:description" content="Fat Tony's is a podcast by Sebastian David Lees featuring conversations with real-world experts, inspired by Nassim Taleb and other influential thinkers.">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" content="fattonys.net">
+    <meta name="twitter:site" content="@FatTonysPodcast">
+    <meta name="twitter:creator" content="@FatTonysPodcast">
+    <meta name="twitter:title" content="Fat Tony's Podcast">
+    <meta name="twitter:description" content="Fat Tony's is a podcast by Sebastian David Lees featuring conversations with real-world experts, inspired by Nassim Taleb and other influential thinkers.">
+    <meta name="twitter:image" content="/theme/img/social-link.png">
+
+    <!-- Bootstrap & CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="/theme/css/styles.css">
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script defer src="/theme/js/aws-sdk.min.js" defer></script>
+    <script defer src="/theme/js/project.js" defer></script>
+
+    <!-- Favicons -->
+    <link rel="icon" href="/theme/img/favicon.ico">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tilt Neon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T39DJ316DC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T39DJ316DC');
+    </script>
+  </head>
+
+  <body id="index">
+      <!-- header -->
+      <div style="margin-bottom: 85px;">
+        <nav class="navbar navbar-expand-lg ms-auto navbar-dark fixed-top">
+          <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="/" aria-label="Fat Tony's">
+              <img class="navbar-logo" src="/theme/img/logo-flickering.gif" alt="Fat Tony's logo"/>
+            </a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item me-2 mt-1">
+                  <a class="nav-link nunito" id="home-link" href="/">Home</a>
+                </li>
+                <li class="nav-item me-2 mt-1">
+                  <a class="nav-link nunito" id="podcast-link" href="/podcast">Podcast</a>
+                </li>
+                <li class="nav-item me-2 mt-1">
+                  <a class="nav-link nunito" id="videos-link" href="/videos">Videos</a>
+                </li>
+                <li class="nav-item me-3 mt-1">
+                  <a class="nav-link nunito" id="books-link" href="/books">Books</a>
+                </li>
+                <li class="nav-item me-2 mt-1">
+                  <a class="nav-link nunito btn px-3 btn-lg btn-purple" href="https://discord.gg/3KdCwRvjtd">
+                    <svg class="me-1" xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 -28.5 256 256" fill="white">
+                      <path d="M216.856339,16.5966031 C200.285002,8.84328665 182.566144,3.2084988 164.041564,0 C161.766523,4.11318106 159.108624,9.64549908 157.276099,14.0464379 C137.583995,11.0849896 118.072967,11.0849896 98.7430163,14.0464379 C96.9108417,9.64549908 94.1925838,4.11318106 91.8971895,0 C73.3526068,3.2084988 55.6133949,8.86399117 39.0420583,16.6376612 C5.61752293,67.146514 -3.4433191,116.400813 1.08711069,164.955721 C23.2560196,181.510915 44.7403634,191.567697 65.8621325,198.148576 C71.0772151,190.971126 75.7283628,183.341335 79.7352139,175.300261 C72.104019,172.400575 64.7949724,168.822202 57.8887866,164.667963 C59.7209612,163.310589 61.5131304,161.891452 63.2445898,160.431257 C105.36741,180.133187 151.134928,180.133187 192.754523,160.431257 C194.506336,161.891452 196.298154,163.310589 198.110326,164.667963 C191.183787,168.842556 183.854737,172.420929 176.223542,175.320965 C180.230393,183.341335 184.861538,190.991831 190.096624,198.16893 C211.238746,191.588051 232.743023,181.531619 254.911949,164.955721 C260.227747,108.668201 245.831087,59.8662432 216.856339,16.5966031 Z M85.4738752,135.09489 C72.8290281,135.09489 62.4592217,123.290155 62.4592217,108.914901 C62.4592217,94.5396472 72.607595,82.7145587 85.4738752,82.7145587 C98.3405064,82.7145587 108.709962,94.5189427 108.488529,108.914901 C108.508531,123.290155 98.3405064,135.09489 85.4738752,135.09489 Z M170.525237,135.09489 C157.88039,135.09489 147.510584,123.290155 147.510584,108.914901 C147.510584,94.5396472 157.658606,82.7145587 170.525237,82.7145587 C183.391518,82.7145587 193.761324,94.5189427 193.539891,108.914901 C193.539891,123.290155 183.391518,135.09489 170.525237,135.09489 Z"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li class="nav-item me-2 mt-1">
+                  <a class="nav-link nunito btn px-3 btn-lg btn-black" href="https://x.com/FatTonysPodcast">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 1200 1227" fill="white">
+                      <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"/>
+                    </svg>
+                  </a>
+                </li>                
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- content -->
+  <!-- Header -->
+<div class="episode-banner podcast-bkg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div>
+          <span class="badge bg-dark mt-5 p-2">SEASON 2</span>
+          <span class="badge bg-dark mt-5 p-2">EPISODE 3</span>
+          <span class="mt-5 p-2"><b>April 27, 2025</b></span>
+          <h1 class="mt-3 tilt-neon white">Leila Johnston - Writing, AI Anxiety, and the Library of Mistakes</h1>
+          <h5 class="mt-3 nunito small-header white">
+            What if the greatest threat to creative careers isn't competition but rather the rapid advancement of technology itself?
+<a href="/episodes/leila-johnston-freelance-writing-ai-anxiety-and-the-library-of-mistakes" class="nunito small-header white"><u>More >></u></a>          </h5>
+        </div>
+        <div id="audio-player-container" class="mt-5 mb-2">
+          <div id='buzzsprout-small-player-artist-leila-johnston'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/2229227.js?artist=Leila+Johnston&container_id=buzzsprout-small-player-artist-leila-johnston&player=small'></script>
+        </div>
+      </div>
+      <div class="col-md-6" style="display: flex; justify-content: center;">
+        <img src="/img/headshots/leila-johnston.png" width="85%" style="align-self: flex-end;" alt="Leila Johnston - Writing, AI Anxiety, and the Library of Mistakes"/>
+      </div>
+    </div>
+  </div>
+</div>  <!-- Header -->
+  <!-- Header -->
+  <!-- Header -->
+  <!-- Header -->
+  <!-- Header -->
+  <!-- Header -->
+  <!-- Header -->
+  <!-- Header -->
+  <!-- Header -->
+  <!-- Header -->
+  <!-- Header -->
+  <!-- Header -->
+  <!-- Header -->
+  
+<div class="podcast-bar">
+  <div class="container">
+    <div class="row text-center">
+      <h3 class="my-4 tilt-neon white">SUBSCRIBE NOW ON YOUR FAVOURITE PLATFORM</h4>
+    </div>
+    <div class="row text-center">
+        <div class="col-xl-3 col-md-6 col-12">
+          <a href="https://podcasts.apple.com/us/podcast/fat-tonys-podcast/id1701282332">
+            <img class="float-none my-3 zoom" src="/theme/badges/apple.svg" height="65px" alt="Fat Tony's on Apple Podcasts"/>
+          </a>
+        </div>
+        <div class="col-xl-3 col-md-6 col-12">
+          <a href="https://open.spotify.com/show/2bXu0jktTilaamBbnt8a84">
+            <img class="float-none my-3 zoom" src="/theme/badges/spotify.svg" height="65px" alt="Fat Tony's on Spotify"/>
+          </a>
+        </div>
+        <div class="col-xl-3 col-md-6 col-12">
+          <a href="https://www.youtube.com/@FatTonys/podcasts">
+            <img class="float-none my-3 zoom" src="/theme/badges/youtube.svg" height="65px" alt="Fat Tony's on Youtube"/>
+          </a>
+        </div>
+        <div class="col-xl-3 col-md-6 col-12 mb-4">
+          <a href="https://music.amazon.com/podcasts/d6a2d046-bab3-459b-a494-c45713320c2e/fat-tony's-podcast">
+            <img class="float-none my-3 zoom" src="/theme/badges/amazonmusic.svg" height="65px" alt="Fat Tony's on Amazon Music"/>
+          </a>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- Episodes -->
+<div>
+  <div class="container mt-5">
+    <div class="row">
+      <h1 class="tilt-neon white text-center mb-5">Popular Episodes</h1>
+<a href="/episodes/raphael-douady-from-theorems-to-wall-street" class="text-decoration-none">
+    <div class="row zoom pointer rounded-3 mb-4 mx-1 px-3 podcast-bkg">
+      <div class="col-md-7">
+        <div>
+          <span class="badge bg-dark mt-3 p-2">SEASON 2</span>
+          <span class="badge bg-dark mt-3 p-2">EPISODE 1</span>
+          <span class="mt-5 p-2 black"><b>November 29, 2024</b></span>
+          <h1 class="mt-3 tilt-neon white">Raphael Douady - From Theorems to Wall Street</h1>
+          <h5 class="mt-3 mb-3 nunito small-header white">
+            Pioneering finance mathematician Raphael Douady talks about his career, risk, and the value of teaching.
+          </h5>
+        </div>
+      </div>
+      <div class="col-md-5" style="display: flex; justify-content: center;">
+        <img src="/img/headshots/raphael-douady.png" class="podcast-card" style="align-self: flex-end;" alt="Raphael Douady - From Theorems to Wall Street"/>
+      </div>
+    </div>
+  </a><a href="/episodes/henry-jeffreys-the-english-wine-revolution" class="text-decoration-none">
+    <div class="row zoom pointer rounded-3 mb-4 mx-1 px-3 podcast-bkg">
+      <div class="col-md-7">
+        <div>
+          <span class="badge bg-dark mt-3 p-2">SEASON 1</span>
+          <span class="badge bg-dark mt-3 p-2">EPISODE 10</span>
+          <span class="mt-5 p-2 black"><b>July 14, 2024</b></span>
+          <h1 class="mt-3 tilt-neon white">Henry Jeffreys - The Past, Present, and Future of English Wine</h1>
+          <h5 class="mt-3 mb-3 nunito small-header white">
+            Henry Jeffreys, wine expert and author of Vines in a Cold Climate, on the English wine revolution.
+          </h5>
+        </div>
+      </div>
+      <div class="col-md-5" style="display: flex; justify-content: center;">
+        <img src="/img/headshots/henry-jeffreys.png" class="podcast-card" style="align-self: flex-end;" alt="Henry Jeffreys - The Past, Present, and Future of English Wine"/>
+      </div>
+    </div>
+  </a><a href="/episodes/dr-michael-bonner-in-defense-of-civilization" class="text-decoration-none">
+    <div class="row zoom pointer rounded-3 mb-4 mx-1 px-3 podcast-bkg">
+      <div class="col-md-7">
+        <div>
+          <span class="badge bg-dark mt-3 p-2">SEASON 1</span>
+          <span class="badge bg-dark mt-3 p-2">EPISODE 9</span>
+          <span class="mt-5 p-2 black"><b>June 23, 2024</b></span>
+          <h1 class="mt-3 tilt-neon white">Dr. Michael R. J. Bonner - In Defense of Civilization</h1>
+          <h5 class="mt-3 mb-3 nunito small-header white">
+            What makes civilization? What do we stand to lose from it's collapse? And what is the path forward to renewal?
+          </h5>
+        </div>
+      </div>
+      <div class="col-md-5" style="display: flex; justify-content: center;">
+        <img src="/img/headshots/michael-bonner.png" class="podcast-card" style="align-self: flex-end;" alt="Dr. Michael R. J. Bonner - In Defense of Civilization"/>
+      </div>
+    </div>
+  </a><a href="/episodes/jim-oshaughnessy-investing-and-ai" class="text-decoration-none">
+    <div class="row zoom pointer rounded-3 mb-4 mx-1 px-3 podcast-bkg">
+      <div class="col-md-7">
+        <div>
+          <span class="badge bg-dark mt-3 p-2">SEASON 1</span>
+          <span class="badge bg-dark mt-3 p-2">EPISODE 6</span>
+          <span class="mt-5 p-2 black"><b>February 25, 2024</b></span>
+          <h1 class="mt-3 tilt-neon white">Jim O'Shaughnessy - (Ad)venture Capital & AI</h1>
+          <h5 class="mt-3 mb-3 nunito small-header white">
+            Wall Street legend Jim O'Shaughnessy joins us to talk about Human OS, The Great Reshuffle, and the future of open source AI.
+          </h5>
+        </div>
+      </div>
+      <div class="col-md-5" style="display: flex; justify-content: center;">
+        <img src="/img/headshots/jim-o-shaughnessy.png" class="podcast-card" style="align-self: flex-end;" alt="Jim O'Shaughnessy - (Ad)venture Capital & AI"/>
+      </div>
+    </div>
+  </a>    </div>
+  </div>
+</div>     
+
+<!-- Videos -->
+<svg width="100%" height="50" viewBox="0 0 500 80" preserveAspectRatio="none" class="mt-5 bkg-gloss-black">
+  <path d="M0,0 L0,40 Q250,80 500,40 L500,0 Z" fill="#1f2833"/>
+</svg>
+<div class="bkg-gloss-black">
+  <div class="container pt-5">
+    <h1 class="tilt-neon white text-center pt-5">Videos</h1>
+      <h5 class="nunito small-header mb-4 text-center light-purple">Featured videos from our Lockdown Lectures</h5>
+        <div class="row mt-5 mb-5">
+              <div class="col-md-4 mb-3">
+                <a href="https://www.youtube.com/watch?v=pkfS7nhony8">
+                  <div class="card video-card h-100">
+                    <div class="card-body p-0">
+                      <div class="row">
+                        <img src="/theme/videos/risk-and-three-provocations.jpeg" width="100%" alt="Risk and Three Provocations"/>
+                      </div>
+                      <div class="row">
+                        <div class="px-4">
+                          <h5 class="lato mb-0 mt-2">Risk and Three Provocations</h5>
+                          <p class="muted lato">Gerald Ashley</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+            </div>
+              <div class="col-md-4 mb-3">
+                <a href="https://www.youtube.com/watch?v=_WAqU_SodKU">
+                  <div class="card video-card h-100">
+                    <div class="card-body p-0">
+                      <div class="row">
+                        <img src="/theme/videos/entrepreneurship.jpeg" width="100%" alt="Entrepreneurship"/>
+                      </div>
+                      <div class="row">
+                        <div class="px-4">
+                          <h5 class="lato mb-0 mt-2">Entrepreneurship</h5>
+                          <p class="muted lato">Jaffer Ali</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+            </div>
+              <div class="col-md-4 mb-3">
+                <a href="https://www.youtube.com/watch?v=4bYZzvcy4-U">
+                  <div class="card video-card h-100">
+                    <div class="card-body p-0">
+                      <div class="row">
+                        <img src="/theme/videos/adaptive-systems.jpeg" width="100%" alt="Adaptive Systems"/>
+                      </div>
+                      <div class="row">
+                        <div class="px-4">
+                          <h5 class="lato mb-0 mt-2">Adaptive Systems</h5>
+                          <p class="muted lato">Luca Delanna</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+            </div>
+        </div>
+      <div class="text-center pb-5">
+        <a href="/videos" class="btn btn-purple btn-lg px-5 py-3 m-4">All Videos</a>
+      </div>
+  </div>
+</div>
+<svg width="100%" height="50" viewBox="0 0 500 80" preserveAspectRatio="none" class="mb-5 bkg-light-black">
+  <path d="M0,0 L0,40 Q250,80 500,40 L500,0 Z" fill="#070707"/>
+</svg>
+
+<!-- Books -->
+<div>
+  <div class="container mt-5">
+    <h1 class="tilt-neon white text-center">Books</h1>
+    <h5 class="nunito small-header text-center light-purple">Featured</h5>
+    <div class="row mt-5">
+<div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Chasing String in the Digital Era', 'Jaffer Ali', 'chasing-string-in-a-digital-era.jpg', 'https://www.amazon.com/Chasing-String-Digital-Era-Jaffer-ebook/dp/B00CTOEUAG', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/chasing-string-in-a-digital-era.jpg"
+      alt="Chasing String in the Digital Era - Jaffer Ali" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Brief Hours and Weeks: My Life as a Capetonian', 'Emanuel Derman', 'my-life-as-a-capetonian.jpg', 'https://www.amazon.com/Brief-Hours-Weeks-Life-Capetonian/dp/1068649100', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/my-life-as-a-capetonian.jpg"
+      alt="Brief Hours and Weeks: My Life as a Capetonian - Emanuel Derman" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Vines in a Cold Climate', 'Henry Jeffreys', 'vines-in-a-cold-climate.jpg', 'https://www.amazon.com/Vines-Cold-Climate-English-Revolution-ebook/dp/B0BV9PNKVM', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/vines-in-a-cold-climate.jpg"
+      alt="Vines in a Cold Climate - Henry Jeffreys" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('In Defense of Civilization', 'Dr. Michael Bonner', 'in-defense-of-civilization.jpg', 'https://www.amazon.com/Defense-Civilization-Past-Renew-Present/dp/1990823068', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/in-defense-of-civilization.jpg"
+      alt="In Defense of Civilization - Dr. Michael Bonner" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Two Thoughts: A Timeless Collection of Infinite Wisdom', 'Jim O’Shaughnessy', 'two-thoughts.jpg', 'https://www.amazon.com/Two-Thoughts-Timeless-Collection-Infinite-ebook/dp/B0DT1G2R3Q', 'Amazon')" class="zoom book pointer"
+      src="/theme/books/two-thoughts.jpg"
+      alt="Two Thoughts: A Timeless Collection of Infinite Wisdom - Jim O’Shaughnessy" height="300px" width="190px">
+  </div><div class="col-6 col-lg-2 mb-5 text-center">
+    <img onclick="showBook('Make Rules Without Making Enemies: How to Draw the Lines Without Drawing Fire', 'Shay Hill', 'make-friends-without-making-enemies.jpg', 'https://www.barnesandnoble.com/w/make-rules-without-making-enemies-shay-hill/1143376217', 'Barnes & Noble')" class="zoom book pointer"
+      src="/theme/books/make-friends-without-making-enemies.jpg"
+      alt="Make Rules Without Making Enemies: How to Draw the Lines Without Drawing Fire - Shay Hill" height="300px" width="190px">
+  </div>    </div>
+    <div class="text-center">
+      <a href="/books" class="btn btn-purple btn-lg px-5 py-3 m-4">All Books</a>
+    </div>
+  </div>
+</div>
+<div class="modal" id="bookModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content mt-5">
+      <div class="modal-header">
+        <div class="row">
+            <div class="col-md-12">
+              <h3 class="modal-title lato w-100" id="bookTitle"></h3>
+            </div>
+            <div class="col-md-12">
+              <h5 class="lato w-100 grey" id="bookAuthor"></h5>
+            </div>
+        </div>
+      </div>
+      <div class="modal-body lato text-center">
+        <img id="bookImage" class="modalBookImage" />
+      </div>
+      <div class="modal-footer">
+        <a href="" target="_blank" type="button" id="bookLink" class="btn btn-amazon w-100 p-3"></a>
+        <button type="button" id="close" class="btn btn-purple w-100 p-3" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  let link_element = document.getElementById("home-link");
+  link_element.classList.add("selected-link");
+</script>
+
+      <!-- Newsletter -->
+      <svg width="100%" height="50" viewBox="0 0 500 80" preserveAspectRatio="none" class="mt-5 bkg-gloss-black">
+        <path d="M0,0 L0,40 Q250,80 500,40 L500,0 Z" fill="#1f2833"/>
+      </svg>
+      <section id="newsletter">
+        <div class="p-5 bkg-gloss-black">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+              <div class="row">
+                <h1 class="tilt-neon white">NEWSLETTER</h1>
+              </div>
+                <div class="row">
+                  <h5 class="white py-3 nunito small-header pe-5">Get notified when new podcast episodes are released, plus access to exclusive Fat Tony's online events and meet ups.</h5>
+              </div>
+              </div>
+                <div class="col-md-6">
+                  <form class="form-horizontal" id="newsletterForm" onsubmit="emailForm(); return false">
+                    <fieldset>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <input name="email" id="email" placeholder="Email" class="form-control py-3" type="email" required>
+                        </div>
+                      </div>
+                    </fieldset>
+                    <button type="button" onclick="sendNewsletterForm()" class="btn mt-4 py-3 btn-lg btn-purple w-100">Sign Up!</button>
+                  </form>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <svg width="100%" height="50" viewBox="0 0 500 80" preserveAspectRatio="none" class="mb-5 bkg-light-black">
+        <path d="M0,0 L0,40 Q250,80 500,40 L500,0 Z" fill="#070707"/>
+      </svg>
+
+      <div class="modal fade" id="newsletterModal" name="newsletterModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content mt-5">
+            <div class="modal-header text-center">
+              <h3 class="modal-title lato w-100"><b>Thanks 💪</b></h3>
+            </div>
+            <div class="modal-body lato text-center">
+              <h5>
+                You're all signed up, and will recieve the next newsletter.
+              </h5>
+            </div>
+            <div class="modal-footer">
+              <button type="button" id="close" class="btn btn-purple w-100 p-3" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- footer -->
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-5 border-top">
+          <p class="col-md-4 ps-2 mb-0">© Fat Tony's. Webite by <a  class="footer-link" href="https://sebs.website">Sebastian Lees</a>.</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <img class="footer-logo" src="/theme/img/logo-thumbnail.png" alt="Fat Tony's footer logo"/>
+          </a>
+      
+          <ul class="nav col-md-4 ps-1 justify-content-end">
+            <li class="footer-link"><a href="/about" id="about-link" class="footer-link px-2 me-1">About</a></li>
+            <li class="footer-link"><a href="/contact" id="contact-link" class="footer-link px-2 me-3">Contact</a></li>
+            <li class="footer-link">
+              <a href="https://x.com/FatTonysPodcast" aria-label="Fat Tony's on X">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 1200 1227" fill="white">
+                  <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"/>
+                </svg>
+              </a>
+            </li>
+            <li class="ms-3 footer-link">
+              <a href="https://youtube.com/@FatTonys" aria-label="Fat Tony's on YouTube">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24">
+                  <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+                </svg>
+              </a>
+            </li>
+            <li class="ms-3 footer-link">
+              <a href="https://www.linkedin.com/company/fattonys"  aria-label="Fat Tony's on LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>

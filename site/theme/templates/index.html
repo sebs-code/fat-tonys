@@ -1,0 +1,96 @@
+{% extends "_base.html" %}
+
+{% block title %}Fat Tony's Podcast{% endblock %}
+{% block description %}Fat Tony's is a podcast by Sebastian David Lees featuring conversations with real-world experts, inspired by Nassim Taleb and other influential thinkers.{% endblock description %}
+
+{% block content %}
+{% for podcast in articles %}
+  <!-- Header -->
+  {% if loop.first %}
+    {% with more = true %}
+      {% include '_podcast_header.html' %}
+    {% endwith %}
+  {% endif %}
+{% endfor %}  
+{% include '_subscribe.html' %}
+
+<!-- Episodes -->
+<div>
+  <div class="container mt-5">
+    <div class="row">
+      <h1 class="tilt-neon white text-center mb-5">Popular Episodes</h1>
+      {% for podcast in articles %}
+        {% if not loop.first %}
+          {% if podcast.featured == 'true' %}
+            {% include '_podcast_card.html' %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>     
+
+<!-- Videos -->
+<svg width="100%" height="50" viewBox="0 0 500 80" preserveAspectRatio="none" class="mt-5 bkg-gloss-black">
+  <path d="M0,0 L0,40 Q250,80 500,40 L500,0 Z" fill="#1f2833"/>
+</svg>
+<div class="bkg-gloss-black">
+  <div class="container pt-5">
+    <h1 class="tilt-neon white text-center pt-5">Videos</h1>
+      <h5 class="nunito small-header mb-4 text-center light-purple">Featured videos from our Lockdown Lectures</h5>
+        <div class="row mt-5 mb-5">
+          {% for video in VIDEOS %}
+            {% if video.featured %}
+              <div class="col-md-4 mb-3">
+                <a href="{{ video.url}}">
+                  <div class="card video-card h-100">
+                    <div class="card-body p-0">
+                      <div class="row">
+                        <img src="/theme/videos/{{ video.thumbnail }}" width="100%" alt="{{ video.title }}"/>
+                      </div>
+                      <div class="row">
+                        <div class="px-4">
+                          <h5 class="lato mb-0 mt-2">{{ video.title }}</h5>
+                          <p class="muted lato">{{ video.speaker }}</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+            </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      <div class="text-center pb-5">
+        <a href="/videos" class="btn btn-purple btn-lg px-5 py-3 m-4">All Videos</a>
+      </div>
+  </div>
+</div>
+<svg width="100%" height="50" viewBox="0 0 500 80" preserveAspectRatio="none" class="mb-5 bkg-light-black">
+  <path d="M0,0 L0,40 Q250,80 500,40 L500,0 Z" fill="#070707"/>
+</svg>
+
+<!-- Books -->
+<div>
+  <div class="container mt-5">
+    <h1 class="tilt-neon white text-center">Books</h1>
+    <h5 class="nunito small-header text-center light-purple">Featured</h5>
+    <div class="row mt-5">
+      {% for book in BOOKS %}
+        {% if book.featured %}
+          {% include '_book.html' %}
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div class="text-center">
+      <a href="/books" class="btn btn-purple btn-lg px-5 py-3 m-4">All Books</a>
+    </div>
+  </div>
+</div>
+{% include '_book_modal.html' %}
+
+<script>
+  let link_element = document.getElementById("home-link");
+  link_element.classList.add("selected-link");
+</script>
+{% endblock content %}

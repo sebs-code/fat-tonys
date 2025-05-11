@@ -1,0 +1,79 @@
+[
+    {
+        "title": "Risk and Three Provocations", 
+        "speaker": "Gerald Ashley",
+        "url": "https://www.youtube.com/watch?v=pkfS7nhony8",
+        "featured": true,
+        "thumbnail": "risk-and-three-provocations.jpeg"
+    },
+    {
+        "title": "What is Liminal Space?", 
+        "speaker": "Sebastian David Lees",
+        "url": "https://www.youtube.com/watch?v=GMe6Rz7tJFc",
+        "featured": false,
+        "thumbnail": "what-is-liminal-space.jpeg"
+    },    
+    {
+        "title": "Writing a Book in Another Language", 
+        "speaker": "Luca Delanna",
+        "url": "https://www.youtube.com/watch?v=ZPu7msq806A",
+        "featured": false,
+        "thumbnail": "writing-book-in-another-language.png"
+    },  
+    {
+        "title": "Entrepreneurship", 
+        "speaker": "Jaffer Ali",
+        "url": "https://www.youtube.com/watch?v=_WAqU_SodKU",
+        "featured": true,
+        "thumbnail": "entrepreneurship.jpeg"
+    },  
+    {
+        "title": "Behavioural Health", 
+        "speaker": "Matios Berhe",
+        "url": "https://www.youtube.com/watch?v=40CzoUKHe1A",
+        "featured": false,
+        "thumbnail": "behavioural-health.jpeg"
+    },  
+    {
+        "title": "Powerlifting", 
+        "speaker": "Tiny Meeker",
+        "url": "https://www.youtube.com/watch?v=TfMSb896ncM",
+        "featured": false,
+        "thumbnail": "powerlifting.jpeg"
+    },  
+    {
+        "title": "Compliance and Human Risk", 
+        "speaker": "Christian Hunt",
+        "url": "https://www.youtube.com/watch?v=hbtvXHw_s5c",
+        "featured": false,
+        "thumbnail": "human-risk.jpeg"
+    },  
+    {
+        "title": "Adaptive Systems", 
+        "speaker": "Luca Delanna",
+        "url": "https://www.youtube.com/watch?v=4bYZzvcy4-U",
+        "featured": true,
+        "thumbnail": "adaptive-systems.jpeg"
+    },  
+    {
+        "title": "Fitness", 
+        "speaker": "Mark Baker",
+        "url": "https://www.youtube.com/watch?v=6O9Zoxib4-Q",
+        "featured": false,
+        "thumbnail": "fitness.jpeg"
+    },  
+    {
+        "title": "Philosophy", 
+        "speaker": "Mahmoud Rasmi",
+        "url": "https://www.youtube.com/watch?v=nNV251l8WKg",
+        "featured": false,
+        "thumbnail": "philosophy.jpeg"
+    }, 
+    {
+        "title": "Computer Security", 
+        "speaker": "Trishank Kuppusamy",
+        "url": "https://www.youtube.com/watch?v=12ggwOLdvYk",
+        "featured": false,
+        "thumbnail": "computer-security.jpeg"
+    }                                     
+]

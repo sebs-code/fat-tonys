@@ -1,0 +1,36 @@
+{% extends "_base.html" %}
+
+{% block title %}Books{% endblock %}
+{% block description %}Discover books written and recommended by Fat Tony's guests and community - covering risk, antifragility, finance, psychology, and more.{% endblock description %}
+
+{% block content %}
+<div class="episode-banner podcast-bkg">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="text-center">
+            <h1 class="my-3 mx-2 tilt-neon white">
+              Books
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="container">
+      <div class="row">
+        <h3 class="mt-5 mb-5 tilt-neon white text-center">Written, read, and recommended by our podcast guests & listeners</h3>
+        {% for book in BOOKS %}
+          {% include '_book.html' %}
+        {% endfor %}
+      </div>
+    </div>
+</div>
+{% include '_book_modal.html' %}
+
+<script>
+  let link_element = document.getElementById("books-link");
+  link_element.classList.add("selected-link");
+</script>
+{% endblock content %}

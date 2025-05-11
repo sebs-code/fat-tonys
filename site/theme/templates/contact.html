@@ -1,0 +1,67 @@
+{% extends "_base.html" %}
+
+{% block title %}Contact{% endblock %}
+{% block description %}{% endblock description %}
+
+{% block content %}
+<div class="episode-banner podcast-bkg">
+    <div class="container">
+      <div class="row">
+        <div class="text-center">
+          <h1 class="my-3 mx-2 tilt-neon white">Contact</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="contact">
+    <div class="container">
+    <div class="col-md-8 offset-md-2 p-5">
+      <h5 class="tilt-neon white mb-5 text-center">Have questions, feedback, or ideas for the podcast, our meetups, or the community? We'd love to hear from you - drop us a message and be part of the conversation!</h4>  
+      <form class="form-horizontal" id="contactForm" name="contactForm">
+        <fieldset>
+          <div class="form-group">
+            <div class="input-group">
+                <input name="name" id="contact-name" placeholder="Name" class="form-control p-3" type="text" required>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <div class="input-group">
+                <input name="email" id="contact-email" placeholder="Email" class="form-control p-3" type="email" required>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <div class="input-group">
+                <textarea rows="10" id="message" class="form-control" name="message" placeholder="Message" required></textarea>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+      <button onclick="sendContactForm()" class="btn btn-purple btn-lg w-100 mt-3 p-3">Send</button>
+    </div>
+    </div>
+  </section>
+  
+  <div class="modal fade" id="contactModal" name="contactModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content mt-5">
+        <div class="modal-header text-center">
+          <h3 class="modal-title lato w-100"><b>Thanks 🙏</b></h3>
+        </div>
+        <div class="modal-body lato text-center">
+          <h5>
+            We'll be in touch shortly.
+          </h5>
+        </div>
+        <div class="modal-footer">
+          <button type="button" id="close" class="btn btn-purple btn-lg w-100 p-3" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    window.onload = function() {
+      let link_element = document.getElementById("contact-link");
+      link_element.classList.add("selected-link");
+    };  
+  </script>
+{% endblock content %}

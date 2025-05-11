@@ -1,0 +1,43 @@
+{% extends "_base.html" %}
+
+{% block title %}Podcast{% endblock %}
+{% block description %}{% endblock description %}
+
+{% block content %}
+{% for podcast in articles_page.object_list %}
+  {% if loop.first %}
+    {% with more = true %}
+      {% include '_podcast_header.html' %}
+    {% endwith %}
+  {% endif %}
+{% endfor %}   
+{% include '_subscribe.html' %}
+
+<div>
+  <div class="container mt-5">
+    <div class="row">
+      {% for podcast in articles_page.object_list %}
+        {% if not loop.first %}
+          {% if podcast.season_number == "2" %}
+            {% include '_podcast_card.html' %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      <h1 class="tilt-neon white text-center mt-5 mb-5">Season 1</h1>
+      {% for podcast in articles_page.object_list %}
+        {% if not loop.first %}
+          {% if podcast.season_number == "1" %}
+            {% include '_podcast_card.html' %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}  
+    </div>
+  </div>
+</div>      
+
+<script>
+  let link_element = document.getElementById("podcast-link");
+  link_element.classList.add("selected-link");
+</script>
+
+{% endblock content %}
