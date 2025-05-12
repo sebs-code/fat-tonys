@@ -1,0 +1,112 @@
+[
+  {
+    "source": "/<*>",
+    "status": "404-200",
+    "target": "/404.html"
+  },
+  {
+    "source": "/episodes/",
+    "status": "301",
+    "target": "/podcast"
+  },
+  {
+    "source": "/antilibrary/",
+    "status": "301",
+    "target": "/books"
+  },
+  {
+    "source": "/videos/",
+    "target": "/videos",
+    "status": "301"
+  },
+  {
+    "source": "/about/",
+    "target": "/about",
+    "status": "301"
+  },
+  {
+    "source": "/contact/",
+    "target": "/contact",
+    "status": "301"
+  },
+  {
+    "source": "/books/",
+    "target": "/books",
+    "status": "301"
+  },
+  {
+    "source": "/podcast/",
+    "target": "/podcast",
+    "status": "301"
+  },
+  {
+    "source": "/episodes/emanuel-derman-my-life-as-a-capetonian/",
+    "target": "/episodes/emanuel-derman-my-life-as-a-capetonian",
+    "status": "301"
+  },
+  {
+    "source": "/episodes/jim-oshaughnessy-investing-and-ai/",
+    "target": "/episodes/jim-oshaughnessy-investing-and-ai",
+    "status": "301"
+  },
+  {
+    "source": "/episodes/marc-a-ross-always-be-communicating/",
+    "target": "/episodes/marc-a-ross-always-be-communicating",
+    "status": "301"
+  },
+  {
+    "source": "/episodes/dr-michael-bonner-in-defense-of-civilization/",
+    "target": "/episodes/dr-michael-bonner-in-defense-of-civilization",
+    "status": "301"
+  },
+  {
+    "source": "/episodes/porkchop-express-dostoevsky/",
+    "target": "/episodes/porkchop-express-dostoevsky",
+    "status": "301"
+  },
+  {
+    "source": "/episodes/joan-shields-what-went-wrong-during-covid/",
+    "target": "/episodes/joan-shields-what-went-wrong-during-covid",
+    "status": "301"
+  },
+  {
+    "source": "/episodes/henry-jeffreys-the-english-wine-revolution/",
+    "target": "/episodes/henry-jeffreys-the-english-wine-revolution",
+    "status": "301"
+  },
+  {
+    "source": "/episodes/joan-shields-home-grown-and-organic-food/",
+    "target": "/episodes/joan-shields-home-grown-and-organic-food",
+    "status": "301"
+  },
+  {
+    "source": "/episodes/raphael-douady-from-theorems-to-wall-street/",
+    "target": "/episodes/raphael-douady-from-theorems-to-wall-street",
+    "status": "301"
+  },
+  {
+    "source": "/episodes/shay-hill-make-rules-without-making-enemies/",
+    "target": "/episodes/shay-hill-make-rules-without-making-enemies",
+    "status": "301"
+  },
+  {
+    "source": "/episodes/sara-lapsley-on-psychopathy-and-mental-health/",
+    "target": "/episodes/sara-lapsley-on-psychopathy-and-mental-health",
+    "status": "301"
+  },
+  {
+    "source": "/episodes/ernest-boehm-on-energy/",
+    "target": "/episodes/ernest-boehm-on-energy",
+    "status": "301"
+  },
+  {
+    "source": "/episodes/leila-johnston-freelance-writing-ai-anxiety-and-the-library-of-mistakes/",
+    "target": "/episodes/leila-johnston-freelance-writing-ai-anxiety-and-the-library-of-mistakes",
+    "status": "301"
+  },
+  {
+    "source": "/episodes/welcome-to-fat-tonys-podcast/",
+    "target": "/episodes/welcome-to-fat-tonys-podcast",
+    "status": "301"
+  }
+]
