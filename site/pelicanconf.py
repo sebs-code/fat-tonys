@@ -17,7 +17,7 @@ THEME = 'theme/'
 PATH = 'content/'
 STATIC_PATHS = ['img/']
 OUTPUT_PATH = 'output/'
-DIRECT_TEMPLATES = ['index', 'about', 'books', 'contact', 'podcast', 'videos']
+DIRECT_TEMPLATES = ['index', 'about', 'books', 'contact', 'podcast', 'videos', '404']
 PAGINATED_TEMPLATES = {'podcast': None}
 DEFAULT_PAGINATION = 50
 
