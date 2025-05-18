@@ -2,7 +2,7 @@ title: Raphael Douady - From Theorems to Wall Street
 slug: raphael-douady-from-theorems-to-wall-street
 date: Nov 29, 2024
 season_number: 2
-episode_number: 1
+episode_number: 3
 description: Pioneering finance mathematician Raphael Douady talks about his career, risk, and the value of teaching.
 headshot: raphael-douady.png
 featured: true

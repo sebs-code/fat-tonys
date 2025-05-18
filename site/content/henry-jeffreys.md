@@ -1,8 +1,8 @@
 title: Henry Jeffreys - The Past, Present, and Future of English Wine
 slug: henry-jeffreys-the-english-wine-revolution
 date: Jul 14, 2024
-season_number: 1
-episode_number: 10
+season_number: 2
+episode_number: 2
 description: Henry Jeffreys, wine expert and author of Vines in a Cold Climate, on the English wine revolution.
 headshot: henry-jeffreys.png
 related: true

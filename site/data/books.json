@@ -1,4 +1,12 @@
-[
+[   
+    {
+        "title": "Max Entropy & the Avalanche",
+        "author": "Megan Preston Meyer",
+        "thumbnail": "max-entropy.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Entropy-Avalanche-Megan-Preston-Meyer/dp/1950927997/",
+        "featured": true
+    },
     {
         "title": "Chasing String in the Digital Era",
         "author": "Jaffer Ali",
@@ -37,7 +45,7 @@
         "thumbnail": "two-thoughts.jpg",
         "provider": "Amazon",
         "link": "https://www.amazon.com/Two-Thoughts-Timeless-Collection-Infinite-ebook/dp/B0DT1G2R3Q",
-        "featured": true
+        "featured": false
     },
     {
         "title": "Make Rules Without Making Enemies: How to Draw the Lines Without Drawing Fire",

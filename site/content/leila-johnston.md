@@ -2,7 +2,7 @@ title: Leila Johnston - Writing, AI Anxiety, and the Library of Mistakes
 slug: leila-johnston-freelance-writing-ai-anxiety-and-the-library-of-mistakes
 date: April 27, 2025
 season_number: 2
-episode_number: 3
+episode_number: 5
 description: What if the greatest threat to creative careers isn't competition but rather the rapid advancement of technology itself?
 headshot: leila-johnston.png
 featured: false

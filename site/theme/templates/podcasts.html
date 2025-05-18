@@ -1,0 +1,44 @@
+{% extends "podcast/base.html" %}
+{% block title %}Episodes | Fat Tony's{% endblock %}
+{% block description %}View and listen to all episodes online from the Fat Tony's podcast.{% endblock %}
+{% block image %}{% static 'podcast/img/episodes.png' %}{% endblock image %}
+
+{% block navbar %}
+  {% include 'podcast/navbar.html' %}
+{% endblock %}
+
+{% block content %}
+{% include 'podcast/podcast-header.html' %}
+{% include 'podcast/podcast-bar.html' %}
+<div>
+  <div class="container mt-5">
+    <div class="row">
+      {% if not podcasts %}
+        <h2 class="white">More episodes coming soon...</h2>
+      {% endif %}
+      {% for podcast in podcasts %}
+        <a href="{% url 'podcast:episode' podcast.slug %}" class="text-decoration-none">
+          <div class="row zoom pointer rounded-3 mb-4 px-3 podcast-bkg">
+            <div class="col-md-7">
+              <div>
+                <span class="badge bg-dark mt-3 p-2">SEASON {{ podcast.season_number }}</span>
+                <span class="badge bg-dark mt-3 p-2">EPISODE {{ podcast.eipsode_number }}</span>
+                <span class="mt-5 p-2 black"><b>{{ podcast.date_created|date:"M d, Y" }}</b></span>
+                <h1 class="mt-3 tilt-neon white">{{ podcast.title }}</h1>
+                <h5 class="mt-3 mb-3 nunito small-header white">
+                  {{ podcast.description }}
+                </h5>
+              </div>
+            </div>
+            <div class="col-md-5" style="display: flex; justify-content: center;">
+              <img src="{{ podcast.headshot }}" width="45%" style="align-self: flex-end;" alt="{{ podcast.title }}"/>
+            </div>
+          </div>
+        </a>  
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% include "podcast/newsletter.html" %}
+{% endblock %}
+

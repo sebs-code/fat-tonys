@@ -1,8 +1,8 @@
 title: Dr. Michael R. J. Bonner - In Defense of Civilization
 slug: dr-michael-bonner-in-defense-of-civilization
 date: Jun 23, 2024
-season_number: 1
-episode_number: 9
+season_number: 2
+episode_number: 1
 description: What makes civilization? What do we stand to lose from it's collapse? And what is the path forward to renewal?
 headshot: michael-bonner.png
 featured: true

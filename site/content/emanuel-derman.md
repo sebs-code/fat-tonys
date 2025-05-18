@@ -2,7 +2,7 @@ title: Emanuel Derman - My Life as a Capetonian
 slug: emanuel-derman-my-life-as-a-capetonian
 date: Feb 08, 2025
 season_number: 2
-episode_number: 2
+episode_number: 4
 description: Emanuel joins us to talk about his journey growing up in Cape Town to working on Wall Street.
 headshot: emanuel-derman.png
 featured: false

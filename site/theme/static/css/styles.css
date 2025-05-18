@@ -233,6 +233,17 @@ footer {
   color: var(--white);
 }
 
+.btn-red {
+  background-color: #FF0000;
+  color: var(--white); 
+
+}
+
+.btn-red:hover {
+  background-color: #e50000;
+  color: var(--white) !important;
+}
+
 .btn-light-black, .btn-light-black:hover, .btn-light-black:active, .btn-light-black:hover:active, .btn-light-black:visited, .btn-light-black:focus {
   background-color: var(--light-black);
   color: var(--white);
