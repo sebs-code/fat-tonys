@@ -1,10 +1,18 @@
 [   
     {
+        "title": "The Disruption Fallacy",
+        "author": "Costas Papaikonomou",
+        "thumbnail": "the-disruption-fallacy.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Entropy-Avalanche-Megan-Preston-Meyer/dp/9081880047",
+        "featured": true
+    },
+    {
         "title": "Max Entropy & the Avalanche",
         "author": "Megan Preston Meyer",
         "thumbnail": "max-entropy.jpg",
         "provider": "Amazon",
-        "link": "https://www.amazon.com/Entropy-Avalanche-Megan-Preston-Meyer/dp/1950927997/",
+        "link": "https://www.amazon.com/Entropy-Avalanche-Megan-Preston-Meyer/dp/1950927997",
         "featured": true
     },
     {
@@ -13,7 +21,7 @@
         "thumbnail": "chasing-string-in-a-digital-era.jpg",
         "provider": "Amazon",
         "link": "https://www.amazon.com/Chasing-String-Digital-Era-Jaffer-ebook/dp/B00CTOEUAG",
-        "featured": true
+        "featured": false
     },
     {
         "title": "Brief Hours and Weeks: My Life as a Capetonian",
