@@ -1,12 +1,20 @@
 [   
     {
+        "title": "Fixing Economics",
+        "author": "George Cooper",
+        "thumbnail": "fixing-economics.jpg",
+        "provider": "Amazon",
+        "link": "https://www.amazon.com/Fixing-Economics-dismal-science-rebuilt/dp/0857195522",
+        "featured": true
+    },
+    {
         "title": "The Disruption Fallacy",
         "author": "Costas Papaikonomou",
         "thumbnail": "the-disruption-fallacy.jpg",
         "provider": "Amazon",
         "link": "https://www.amazon.com/Entropy-Avalanche-Megan-Preston-Meyer/dp/9081880047",
         "featured": true
-    },
+    },    
     {
         "title": "Max Entropy & the Avalanche",
         "author": "Megan Preston Meyer",
@@ -37,7 +45,7 @@
         "thumbnail": "vines-in-a-cold-climate.jpg",
         "provider": "Amazon",
         "link": "https://www.amazon.com/Vines-Cold-Climate-English-Revolution-ebook/dp/B0BV9PNKVM",
-        "featured": true
+        "featured": false
     },
     {
         "title": "In Defense of Civilization",
