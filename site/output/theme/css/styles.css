@@ -37,6 +37,10 @@ body {
   color: var(--light-purple);
 }
 
+.dark-purple {
+  color: var(--dark-purple);
+}
+
 .black {
   color: var(--black);
 }
