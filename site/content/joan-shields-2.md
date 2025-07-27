@@ -5,6 +5,7 @@ season_number: 1
 episode_number: 5
 description: Joan Shields returns to discuss how her experience as a nurse during the early AIDS epidemic in New York in the 1980's prepared her for Covid.
 headshot: joan-shields.png
+thumbnail: joan-shields-thumbnail.png
 featured: false
 related: false
 player: <div id='buzzsprout-small-player-artist-joan-shields-2'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/2229227.js?artist=Joan+Shields+2&container_id=buzzsprout-small-player-artist-joan-shields-2&player=small'></script>

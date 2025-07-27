@@ -5,6 +5,7 @@ season_number: 2
 episode_number: 2
 description: Henry Jeffreys, wine expert and author of Vines in a Cold Climate, on the English wine revolution.
 headshot: henry-jeffreys.png
+thumbnail: henry-jeffreys-thumbnail.png
 related: true
 featured: true
 player: <div id='buzzsprout-small-player-artist-henry-jeffreys'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/2229227.js?artist=Henry+Jeffreys&container_id=buzzsprout-small-player-artist-henry-jeffreys&player=small'></script>

@@ -5,6 +5,7 @@ season_number: 1
 episode_number: 4
 description: Joan talks about her career as a nurse, her journey into home grown produce, and surviving personal attacks by GMO shills.
 headshot: joan-shields.png
+thumbnail: joan-shields-thumbnail.png
 featured: false
 related: false
 player: <div id='buzzsprout-small-player-limit-5-artist-joan-shields'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/2229227.js?artist=Joan+Shields&container_id=buzzsprout-small-player-limit-5-artist-joan-shields&limit=5&player=small'></script>

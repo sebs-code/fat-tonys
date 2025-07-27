@@ -5,6 +5,7 @@ season_number: 2
 episode_number: 6
 description: Megan joins us to talk about her journey from Corporate Analyst to Children's Author.
 headshot: megan-preston-meyer.png
+thumbnail: megan-preston-meyer-thumbnail.png
 featured: false
 related: false
 player:<div id='buzzsprout-small-player-artist-megan-preston-meyer'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/2229227.js?artist=Megan+Preston+Meyer&container_id=buzzsprout-small-player-artist-megan-preston-meyer&player=small'></script>

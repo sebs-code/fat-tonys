@@ -5,6 +5,7 @@ season_number: 2
 episode_number: 1
 description: What makes civilization? What do we stand to lose from it's collapse? And what is the path forward to renewal?
 headshot: michael-bonner.png
+thumbnail: michael-bonner-thumbnail.png
 featured: true
 related: false
 player: <div id="buzzsprout-player-15296986"></div><script src="https://www.buzzsprout.com/2229227/15296986-michael-j-bonner-in-defense-of-civilization.js?container_id=buzzsprout-player-15296986&player=small" type="text/javascript" charset="utf-8"></script>

@@ -5,6 +5,7 @@ season_number: 2
 episode_number: 5
 description: What if the greatest threat to creative careers isn't competition but rather the rapid advancement of technology itself?
 headshot: leila-johnston.png
+thumbnail: leila-johnston-thumbnail.png
 featured: false
 related: true
 player: <div id='buzzsprout-small-player-artist-leila-johnston'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/2229227.js?artist=Leila+Johnston&container_id=buzzsprout-small-player-artist-leila-johnston&player=small'></script>

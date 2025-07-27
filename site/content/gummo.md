@@ -5,6 +5,7 @@ season_number: 2
 episode_number: 8
 description: Hacker Gummo on being chased by the CIA, life after fame and fortune, and the future of quantum computing  
 headshot: gummo.png
+thumbnail: gummo-thumbnail.png
 featured: false
 related: false
 player:<div id='buzzsprout-small-player-artist-gummo'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/2229227.js?artist=Gummo&container_id=buzzsprout-small-player-artist-gummo&player=small'></script>

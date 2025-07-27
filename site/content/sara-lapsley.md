@@ -5,6 +5,7 @@ season_number: 1
 episode_number: 1
 description: Sara talks about mental health, and why psychopathy is the biggest problem we don't know we have.
 headshot: sara-lapsley.png
+thumbnail: sara-lapsley-thumbnail.png
 featured: false
 related: true
 player: <div id='buzzsprout-small-player-artist-sara-lapsley-2'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/2229227.js?artist=Sara+Lapsley+2&container_id=buzzsprout-small-player-artist-sara-lapsley-2&player=small'></script>

@@ -5,6 +5,7 @@ season_number: 2
 episode_number: 3
 description: Pioneering finance mathematician Raphael Douady talks about his career, risk, and the value of teaching.
 headshot: raphael-douady.png
+thumbnail: raphael-douady-thumbnail.png
 featured: true
 related: false
 player: <div id='buzzsprout-small-player-artist-raphael-douady'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/2229227.js?artist=Raphael+Douady&container_id=buzzsprout-small-player-artist-raphael-douady&player=small'></script>

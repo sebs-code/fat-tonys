@@ -5,6 +5,7 @@ season_number: 1
 episode_number: 6
 description: Wall Street legend Jim O'Shaughnessy joins us to talk about Human OS, The Great Reshuffle, and the future of open source AI.
 headshot: jim-o-shaughnessy.png
+thumbnail: jim-o-shaughnessy-thumbnail.png
 featured: true
 related: false
 player: <div id='buzzsprout-small-player-artist-jim-o-shaughnessy'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/2229227.js?artist=Jim+O%27Shaughnessy&container_id=buzzsprout-small-player-artist-jim-o-shaughnessy&player=small'></script>

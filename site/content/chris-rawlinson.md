@@ -5,6 +5,7 @@ season_number: 2
 episode_number: 7
 description: Chris Rawlinson, founder of 42 Courses, talks about online Education.
 headshot: chris-rawlinson.png
+thumbnail: chris-rawlinson-thumbnail.png
 featured: false
 related: false
 player:<div id='buzzsprout-small-player-artist-chris-rawlinson'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/2229227.js?artist=Chris+Rawlinson&container_id=buzzsprout-small-player-artist-chris-rawlinson&player=small'></script>

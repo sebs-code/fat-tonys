@@ -5,6 +5,7 @@ season_number: 1
 episode_number: 8
 description: Porkchop Express visits Fat Tony's to explain how Dostoevsky can change your life.
 headshot: porkchop-express.png
+thumbnail: porkchop-express-thumbnail.png
 featured: false
 related: false
 player: <div id='buzzsprout-small-player-artist-porkchop-express'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/2229227.js?artist=Porkchop+Express&container_id=buzzsprout-small-player-artist-porkchop-express&player=small'></script>

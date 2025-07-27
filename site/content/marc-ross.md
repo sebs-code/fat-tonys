@@ -5,6 +5,7 @@ season_number: 1
 episode_number: 7
 description: Geopolitical communications expert Marc A. Ross joins Fat Tony's to talk about communications and AI policy.
 headshot: marc-ross.png
+thumbnail: marc-ross-thumbnail.png
 featured: false
 related: false
 player: <div id='buzzsprout-small-player-artist-marc-a-ross'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/2229227.js?artist=Marc+A.+Ross&container_id=buzzsprout-small-player-artist-marc-a-ross&player=small'></script>

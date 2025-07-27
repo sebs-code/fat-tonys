@@ -5,6 +5,7 @@ season_number: 1
 episode_number: 2
 description: Shay joins us to talk about safety, incident prevention, and probability.
 headshot: shay-a-hill.png
+thumbnail: shay-a-hill-thumbnail.png
 featured: false
 related: false
 player: <div id='buzzsprout-small-player-artist-shay-hill'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/2229227.js?artist=Shay+Hill&container_id=buzzsprout-small-player-artist-shay-hill&player=small'></script>

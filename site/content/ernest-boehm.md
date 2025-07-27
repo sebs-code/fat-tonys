@@ -5,6 +5,7 @@ season_number: 1
 episode_number: 3
 description: Ernest talks about life as a Chemical Engineer, witnessing the carbon sequestration craze, and living in 20 countries.
 headshot: ernest-boehm.png
+thumbnail: ernest-boehm-thumbnail.png
 featured: false
 related: false
 player: <div id='buzzsprout-small-player-limit-5-artist-ernest-boehm'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/2229227.js?artist=Ernest+Boehm&container_id=buzzsprout-small-player-limit-5-artist-ernest-boehm&limit=5&player=small'></script>

@@ -5,6 +5,7 @@ season_number: 2
 episode_number: 4
 description: Emanuel joins us to talk about his journey growing up in Cape Town to working on Wall Street.
 headshot: emanuel-derman.png
+thumbnail: emanuel-derman-thumbnail.png
 featured: false
 related: false
 player:<div id='buzzsprout-small-player-artist-emanuel-derman'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/2229227.js?artist=Emanuel+Derman&container_id=buzzsprout-small-player-artist-emanuel-derman&player=small'></script>
