@@ -5,7 +5,8 @@
   --light-black: #1f2833;
   --grey: #909191;
   --purple: #9354ce;
-  --light-purple: #AC58FC;
+  --light-purple: #A140FC;
+  --dark-purple: #8a1fed;
   --white: #ffffff;
   --yellow: #f1cb44;
   --light-yellow: #fad84c;
@@ -214,7 +215,7 @@ footer {
 }
 
 .btn-purple:hover {
-  background-color: var(--purple);
+  background-color: var(--dark-purple);
   color: var(--white) !important;
 }
 
