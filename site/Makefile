@@ -73,6 +73,9 @@ devserver-global:
 publish:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
 
+thumbnails:
+	cd theme/static/books && python thumbnails.py
+
 s3_upload: publish
 	aws s3 sync "$(OUTPUTDIR)"/ s3://$(S3_BUCKET) --acl public-read --delete
 	aws s3 mv s3://$(S3_BUCKET)/blog-bare/ s3://$(S3_BUCKET)/blog/ --recursive --acl public-read --content-type text/html
