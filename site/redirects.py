@@ -17,13 +17,18 @@ redirects = [
     },
     {
         "source": "/<*>",
+        "status": "301",
+        "target": "/<*>"
+    },
+    {
+        "source": "/<*>",
         "status": "404-200",
         "target": "/404.html"
-    }
+  }
 ]
-
 valid_dirs = ['output', 'output/episodes']
 invalid_files =  ['index.html', '404.html']
+
 
 for directory in valid_dirs:
     files = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f)) and f not in invalid_files]
