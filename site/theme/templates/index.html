@@ -96,4 +96,16 @@
   let link_element = document.getElementById("home-link");
   link_element.classList.add("selected-link");
 </script>
+
+<script type="speculationrules">
+  {
+    "prerender": [
+      {
+        "where": {
+          "selector_matches": "a"
+        }
+      }
+    ]
+  }
+</script>
 {% endblock content %}
